@@ -8,6 +8,7 @@
         session = "mysessionid";
     }, 1000);
 </script>
+<!-- Notice that when removing the if, everything works as expected -->
 {#if session != null}
     {#await data}
         Loading...
